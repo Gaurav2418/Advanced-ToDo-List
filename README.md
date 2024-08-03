@@ -22,25 +22,28 @@ Currently, two official plugins are available:
 ## Installation
 Follow these steps to set up the project on your local machine:
 
-1. **Clone the repository:**
+ ## **Clone the repository:**
   - git clone https://github.com/Gaurav2418/Advanced-ToDo-List.git
   -  cd Advanced-ToDo-List
-2.Install Node modules:
+    
+## Install Node modules:
   -npm install
-3.Install JSON Server:
+  
+## Install JSON Server:
   -npm install json-server
-4.Install Axios:
+  
+## Install Axios:
   -npm install axios
 
-5. Start JSON Server: (Note- make sure json-server is live before launching this project)
+## Start JSON Server: (Note- make sure json-server is live before launching this project)
   -npx json-server --watch db.json --port 5000
 
-6.Start the React application:
+## Start the React application:
   -npm run dev
 
 
 
 
 
-Note- This Read me file may have some incomplete instructions about how to set up this project on your local macine and overall info about the project but I will try to add this details as soon as possible
+## Note- This Read me file may have some incomplete instructions about how to set up this project on your local macine and overall info about the project but I will try to add this details as soon as possible
 Thank You...
