@@ -35,7 +35,8 @@ Follow these steps to set up the project on your local machine:
 ## Install Axios:
   -npm install axios
 
-## Start JSON Server: (Note- make sure json-server is live before launching this project)
+## Start JSON Server: 
+(Note- make sure json-server is live before launching this project)
   -npx json-server --watch db.json --port 5000
 
 ## Start the React application:
@@ -45,5 +46,6 @@ Follow these steps to set up the project on your local machine:
 
 
 
-## Note- This Read me file may have some incomplete instructions about how to set up this project on your local macine and overall info about the project but I will try to add this details as soon as possible
+## Note-
+This Read me file may have some incomplete instructions about how to set up this project on your local macine and overall info about the project but I will try to add this details as soon as possible
 Thank You...
