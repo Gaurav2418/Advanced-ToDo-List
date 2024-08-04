@@ -2,65 +2,81 @@
   "tasks": [
     {
       "id": "1",
-      "task": "lunch",
-      "description": " do ontime lunch update 2",
-      "isDone": false
+      "name": "lunch",
+      "description": "d2",
+      "completed": false,
+      "lastUpdated": "2024-08-03T10:46:16.359Z"
     },
     {
       "id": "c1b2",
       "name": "gaurav",
-      "description": "edited its description",
-      "task": "task3"
+      "description": "d2",
+      "completed": true,
+      "lastUpdated": "2024-08-04T07:39:58.079Z",
+      "title": "gaurav1"
     },
     {
       "id": "c6a9",
       "name": "task2",
-      "description": "addition",
-      "task": "task4"
+      "description": "d2",
+      "completed": false,
+      "lastUpdated": "2024-08-03T10:46:16.359Z"
     },
     {
       "id": "2405",
       "name": "",
-      "description": "multiplication",
-      "task": "task5"
+      "description": "d2",
+      "completed": false,
+      "lastUpdated": "2024-08-03T10:46:16.359Z"
     },
     {
       "id": "b6f9",
-      "task": "45",
-      "description": "54"
+      "name": "45",
+      "description": "d2",
+      "completed": false,
+      "lastUpdated": "2024-08-03T10:46:16.359Z"
     },
     {
       "id": "d3b9",
-      "task": "dinner",
-      "description": "take a timeout"
+      "name": "dinner",
+      "description": "Take time out",
+      "completed": false,
+      "lastUpdated": "2024-08-03T10:46:16.359Z"
     },
     {
       "id": "4504",
-      "task": "edit3",
-      "description": "dec3 edt"
+      "name": "edit3",
+      "description": "d2",
+      "completed": false,
+      "lastUpdated": "2024-08-03T10:46:16.359Z"
     },
     {
       "id": "64ea",
-      "task": "gaurav",
-      "description": "new"
+      "name": "gaurav",
+      "description": "d2",
+      "completed": false,
+      "lastUpdated": "2024-08-03T10:46:16.359Z"
     },
     {
       "id": "9aaa",
-      "task": "",
-      "description": ""
+      "name": "",
+      "description": "d2",
+      "completed": false,
+      "lastUpdated": "2024-08-03T10:46:16.359Z"
     },
     {
       "id": "1722680813210",
-      "title": "c23",
+      "name": "fgn",
       "description": "d1",
-      "completed": true,
-      "lastUpdated": "2024-08-03T10:51:29.375Z"
+      "completed": false,
+      "lastUpdated": "2024-08-04T07:13:27.206Z",
+      "title": "fgn2"
     },
     {
       "id": "1722681976359",
-      "title": "t2",
+      "name": "t2",
       "description": "d2",
-      "completed": false,
+      "completed": true,
       "lastUpdated": "2024-08-03T10:46:16.359Z"
     }
   ]
