@@ -49,5 +49,7 @@ Follow these steps to set up the project on your local machine:
 
 ## Note-
 This Read me file may have some incomplete instructions about how to set up this project on your local macine and overall info about the project but I will try to add this details as soon as possible
+
 (There are some inconsistencies in this project I'll fix it soon...)
+
 Thank You...
