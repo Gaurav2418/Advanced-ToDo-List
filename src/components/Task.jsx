@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import axios from 'axios';
 
 const Task = ({ task, updateTask }) => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -14,8 +15,13 @@ const Task = ({ task, updateTask }) => {
   };
 
   const handleUpdate = () => {
-    updateTask({ ...task, title: newTitle, lastUpdated: new Date() });
-    setIsEditing(false);
+    const updatedTask=({ ...task, name: newTitle, lastUpdated: new Date() });
+    axios.put(`http://localhost:5000/tasks/${task.id}`, updatedTask)
+      .then(response => {
+        updateTask(response.data);
+        setIsEditing(false);
+      })
+      .catch(error => console.error('Error updating task:', error));
   };
 
   const handleMarkAsDone = () => {
