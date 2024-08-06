@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-const Task = ({ task, updateTask }) => {
+const Task = ({ task, updateTask,  }) => {
   const [isExpanded, setIsExpanded] = useState(false);
   const [isEditing, setIsEditing] = useState(false);
   const [newTitle, setNewTitle] = useState(task.name);
@@ -73,6 +73,7 @@ const Task = ({ task, updateTask }) => {
           </button>
         </div>
       )}
+      
     </div>
   );
 };

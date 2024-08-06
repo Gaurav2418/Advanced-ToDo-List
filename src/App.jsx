@@ -45,8 +45,10 @@ function App() {
       });
   };
 
+
+
   const filteredTasks = tasks.filter(task =>
-    task.title && task.title.toLowerCase().includes(searchTerm.toLowerCase())
+    task.name && task.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
   return (
